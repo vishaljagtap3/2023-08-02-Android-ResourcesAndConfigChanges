@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="information_hint">Enter information here..</string>
+    <string name="action_button_label">Take Action</string>
+</resources>

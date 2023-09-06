@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:text="@string/welcome_message"
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:padding="16dp"
+        android:background="@color/txt_background_color"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size"
+        android:id="@+id/txtLabelInformation"
+        android:layout_width="@dimen/txt_width"
+        android:layout_height="@dimen/txt_height"
+        android:text="@string/info_label"
+        android:password="@bool/is_password"
+         />
+
+    <EditText
+        android:id="@+id/edtInfo"
+        android:hint="@string/information_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnAction"
+        android:text="@string/action_button_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/flag"
+        android:id="@+id/imgFlag"
+        android:layout_width="300dp"
+        android:layout_height="200dp"/>
+
+</LinearLayout>

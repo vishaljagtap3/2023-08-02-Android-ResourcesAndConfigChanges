@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ResourcesAndLocalisation</string>
+    <string name="info_label">Information</string>
+
+    <color name="text_color">#000</color>
+    <color name="txt_background_color">#ffccdd</color>
+
+    <integer name="company_code">101</integer>
+    <bool name="is_password">false</bool>
+
+    <string-array name="cities">
+        <item>Pune</item>
+        <item>Mumbai</item>
+        <item>Chennai</item>
+        <item>Kolkata</item>
+    </string-array>
+
+    <integer-array name="city_codes">
+        <item>411000</item>
+        <item>400000</item>
+        <item>300000</item>
+        <item>200000</item>
+    </integer-array>
+
+    <dimen name="txt_width">300dp</dimen>
+    <dimen name="txt_height">150dp</dimen>
+    <dimen name="txt_padding">30dp</dimen>
+    <dimen name="text_size">40sp</dimen>
+
+</resources>
